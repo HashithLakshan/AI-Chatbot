@@ -1,0 +1,209 @@
+
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "Hello there"
+            ],
+            "responses": [
+                "Hello! How can I assist you with your photography needs today?",
+                "Hi there! How can I help you capture your perfect moments?",
+                "Hey! Looking for something specific in photography?",
+                "Good day! How can I support your photography needs?",
+                "Hello! How can I help you today?",
+                "Hi! What can I do for you regarding your photography requirements?",
+                "Hey there! Need help with your photography project?",
+                "Hello! What kind of photography services are you looking for today?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Bye",
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Farewell",
+                "Catch you later",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later! Let us know if you need any more photography help!",
+                "Bye! Don't hesitate to ask if you need more information.",
+                "Take care! Come back soon for more photography services!",
+                "Farewell! Have a wonderful day!",
+                "Catch you later! We're here if you need more assistance.",
+                "Talk to you later! Feel free to reach out anytime."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thank you",
+                "Thanks",
+                "I appreciate it",
+                "Thank you so much",
+                "Thanks a lot",
+                "Many thanks",
+                "Thank you very much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem! Happy to help with your photography needs.",
+                "You're welcome! Is there anything else you need?",
+                "Glad to assist! Let me know if you have more questions.",
+                "You're welcome! Anytime you need help, I'm here.",
+                "No worries! I'm here to help.",
+                "You're welcome! Do you need help with anything else?"
+            ]
+        },
+        {
+            "tag": "service_inquiry",
+            "patterns": [
+                "Tell me about the weddding photography",
+                "What is the price of Wedding shoot?",
+                "Do you offer what is the best option?",
+                "I need details about [service_name]",
+                "Can you provide information on [service_name]?",
+                "What are the features of [service_name]?",
+                "How much does [service_name] cost?",
+                "Is [service_name] available?",
+                "Give me some details on [service_name]"
+            ],
+            "responses": [
+                "[service_name] is a high-quality service available for $[price]. It includes [service_features].",
+                "[service_name] costs $[price] and is available.",
+                "Yes, we offer [service_name]. It's priced at $[price] and includes [service_features].",
+                "[service_name] is priced at $[price]. Here are some details: [service_features].",
+                "[service_name] is available for $[price]. It comes with [service_features].",
+                "You can get [service_name] for $[price]. It includes the following features: [service_features].",
+                "[service_name] is priced at $[price] and includes these features: [service_features].",
+                "[service_name] is available and priced at $[price]. It has the following features: [service_features]."
+            ]
+        },
+        {
+            "tag": "order_status",
+            "patterns": [
+                "Where is my order?",
+                "Can you tell me the status of my order?",
+                "I want to track my order",
+                "Order status for order number [order_number]",
+                "What's the status of my order?",
+                "Can I track my order?",
+                "How can I check my order status?",
+                "Tell me the status of order [order_number]"
+            ],
+            "responses": [
+                "Your order is currently [order_status]. You can expect completion by [delivery_date].",
+                "Order number [order_number] is [order_status]. Details have been sent to your email.",
+                "Your order is [order_status] and should be completed by [delivery_date].",
+                "Order [order_number] is [order_status]. You can track its progress using the details provided.",
+                "The status of your order is [order_status]. It should be completed by [delivery_date].",
+                "Your order [order_number] is currently [order_status]. Expected completion date is [delivery_date].",
+                "Order [order_number] status is [order_status]. Check your email for more details.",
+                "Your order is [order_status] and will be completed by [delivery_date]."
+            ]
+        },
+        {
+            "tag": "shipping_info",
+            "patterns": [
+                "What are your delivery options?",
+                "Do you offer free delivery?",
+                "How long does delivery take?",
+                "Tell me about your delivery policies",
+                "What are the delivery charges?",
+                "How much is delivery?",
+                "What is your delivery policy?",
+                "Do you deliver to [location]?"
+            ],
+            "responses": [
+                "We offer various delivery options including standard and expedited delivery.",
+                "Yes, we offer free delivery on orders over $[amount].",
+                "Standard delivery takes [delivery_time] days, while expedited delivery takes [expedited_time] days.",
+                "Our delivery policies include options for standard and expedited delivery. Free delivery is available for orders over $[amount].",
+                "Delivery charges vary based on the delivery method selected. Free delivery is available for orders over $[amount].",
+                "We have different delivery rates based on the delivery speed. Free delivery applies to orders over $[amount].",
+                "Our delivery policy covers standard and expedited delivery. Free delivery is available for purchases over $[amount].",
+                "We do deliver to [location]. Delivery times and charges vary based on the delivery method selected."
+            ]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": [
+                "What is your return policy?",
+                "Can I return a service?",
+                "How do I return an item?",
+                "What are the conditions for returns?",
+                "What is your refund policy?",
+                "Can I get a refund?",
+                "How can I return a purchase?",
+                "What is the process for returns?"
+            ],
+            "responses": [
+                "You can request a refund within [return_period] days of service delivery for a full refund.",
+                "To return a service, please visit our returns page and follow the instructions.",
+                "Our return policy allows for refunds within [return_period] days. Services must be unused and in original condition.",
+                "Returns are accepted within [return_period] days. Services should be unused and in original condition.",
+                "You can get a refund if you request it within [return_period] days of service delivery.",
+                "We accept return requests within [return_period] days. Services should be unused for a full refund.",
+                "Our refund policy states that services can be returned within [return_period] days for a full refund if they are unused.",
+                "The process for returns includes visiting our returns page and following the provided instructions. Returns are accepted within [return_period] days."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay with PayPal?",
+                "Do you accept credit cards?",
+                "How can I pay for my order?",
+                "What are your payment options?",
+                "Can I use a debit card?",
+                "Do you accept online payments?",
+                "What forms of payment do you take?"
+            ],
+            "responses": [
+                "We accept various payment methods including credit cards, PayPal, and bank transfers.",
+                "Yes, you can pay with PayPal.",
+                "We accept all major credit cards including Visa, MasterCard, and American Express.",
+                "You can pay for your order using credit cards, PayPal, or bank transfers.",
+                "Our payment options include credit cards, PayPal, and bank transfers.",
+                "Yes, debit cards are also accepted.",
+                "We accept online payments through credit cards, PayPal, and bank transfers.",
+                "You can use credit cards, debit cards, PayPal, and bank transfers to make a payment."
+            ]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": [
+                "I need help with my order",
+                "Can you assist me?",
+                "I have a problem with my purchase",
+                "Support",
+                "Customer service",
+                "I need assistance",
+                "Can you help me?",
+                "I have an issue with my order"
+            ],
+            "responses": [
+                "Sure, I'm here to help! What seems to be the problem with your order?",
+                "I'd be happy to assist you. Please provide more details about the issue.",
+                "How can I help you with your order today?",
+                "Please describe your issue, and I'll do my best to assist you.",
+                "Our customer service team is here to help. What's the issue with your order?",
+                "We are here to assist you. Can you provide more details on the problem?",
+                "I'd be glad to help. What seems to be the problem with your order?",
+                "Please let us know how we can assist you with your order."
+            ]
+        }
+    ]
+}

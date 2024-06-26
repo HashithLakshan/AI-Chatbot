@@ -1,0 +1,11 @@
+<h1 style="text-align: center;"> Ask Your Questions ..... </h1>
+<div class="chat-container">
+    <div class="chat-box" *ngFor="let message of messages">
+        <div class="user-message" *ngIf="message.user">{{ message.text }}</div>
+        <div class="bot-message" *ngIf="!message.user">{{ message.text }}</div>
+    </div>
+    <div class="input-box">
+        <input [(ngModel)]="userInput" (keydown.enter)="sendMessage()" placeholder="Type your message..." />
+        <button (click)="sendMessage()">Send</button>
+    </div>
+</div>
